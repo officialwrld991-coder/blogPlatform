@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 
 @Data
-//@Document("Comments")
+@Document("Comments")
 public class Comment {
     @Id
     private String id;

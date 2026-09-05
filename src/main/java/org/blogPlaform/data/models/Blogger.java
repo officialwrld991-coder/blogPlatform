@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 
 @Data
-//@Document("Bloggers")
+@Document("Bloggers")
 
 public class Blogger{
     @Id

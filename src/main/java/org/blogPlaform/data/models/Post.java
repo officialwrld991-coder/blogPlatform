@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.List;
 
 @Data
-//@Document("Posts")
+@Document("Posts")
 public class Post {
     @Id
     private String id;
