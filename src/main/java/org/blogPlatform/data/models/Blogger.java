@@ -17,6 +17,6 @@ public class Blogger {
     private String email;
     @Enumerated(EnumType.STRING)
     private Role role;
-    //new
+
 
 }
