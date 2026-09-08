@@ -1,5 +1,10 @@
 package org.blogPlatform.services;
 
+import org.blogPlatform.data.models.Admin;
+
+import java.util.Optional;
+
 public interface AdminService {
-    void createFirstAdmin();
+    Optional<Admin> findAdminByUsername(String username);
+    void createAdmin();
 }

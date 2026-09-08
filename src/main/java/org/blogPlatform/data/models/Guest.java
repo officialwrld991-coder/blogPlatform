@@ -1,18 +1,17 @@
 package org.blogPlatform.data.models;
+import jakarta.persistence.*;
 import lombok.Data;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.EnumType;
 
 @Data
 @Entity
 public class Guest{
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String username;
     private String password;
     private String email;
+    private boolean loggedIn;
     @Enumerated(EnumType.STRING)
     private Role role;
 }
