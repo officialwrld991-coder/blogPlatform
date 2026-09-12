@@ -6,6 +6,7 @@ import org.blogPlatform.data.repositories.AdminRepository;
 import org.blogPlatform.dtos.requests.CreateAdminRequest;
 import org.blogPlatform.dtos.requests.LoginRequest;
 import org.blogPlatform.dtos.responses.CreateAdminResponse;
+import org.blogPlatform.exceptions.AdminException;
 import org.blogPlatform.exceptions.RegisterException;
 import org.springframework.stereotype.Service;
 
@@ -30,12 +31,11 @@ public class AdminServiceImpl implements AdminService {
 
     @Override
     public Optional<Admin> findAdminByUsername(String username) {
-
         return adminRepository.findByUsername(username);
     }
 
     @Override
-    public CreateAdminResponse createAdmin(CreateAdminRequest createAdminRequest, LoginRequest loginRequest) {
+    public CreateAdminResponse createAdmin(LoginRequest loginRequest, CreateAdminRequest createAdminRequest) {
         authService.login(loginRequest);
 
         if (createAdminRequest == null) {
@@ -44,9 +44,7 @@ public class AdminServiceImpl implements AdminService {
             throw new RegisterException("Email cannot be empty");
         } if (createAdminRequest.getRegisteredAdminUsername().isEmpty()) {
             throw new RegisterException("Username cannot be empty");
-        } adminRepository.findByUsername(createAdminRequest.getRegisteredAdminEmail().toLowerCase().replaceAll(" ", ""))
-                .orElseThrow(() -> new RegisterException("username not found"));
-         if (createAdminRequest.getRegisteredAdminPassword().isEmpty()) {
+        } if (createAdminRequest.getRegisteredAdminPassword().isEmpty()) {
             throw new RegisterException("Password cannot be empty");
         }
 
@@ -65,4 +63,23 @@ public class AdminServiceImpl implements AdminService {
 
         return createAdminResponse;
     }
+
+    @Override
+    public String deleteAdmin(LoginRequest loginRequest, String username) {
+        authService.login(loginRequest);
+
+        if (username.isEmpty()) {
+            throw new IllegalArgumentException("Username cannot be empty");
+        }
+        Admin foundAdmin = adminRepository.findByUsername(username.toLowerCase()).orElseThrow(
+                ()-> new AdminException(username + "Username not found"));
+        if (foundAdmin.getUsername().equals(username)) {
+            throw new AdminException(username + "Admin cannot be deleted");
+        }
+        adminRepository.delete(foundAdmin);
+
+        return foundAdmin.getUsername()+ "has been deleted";
+    }
+
+
 }
