@@ -10,5 +10,8 @@ import java.util.Optional;
 public interface AdminService {
     Admin saveAdmin(Admin admin);
     Optional<Admin> findAdminByUsername(String username);
-    CreateAdminResponse createAdmin(CreateAdminRequest request,  LoginRequest loginRequest);
-}
+    CreateAdminResponse createAdmin(LoginRequest loginRequest, CreateAdminRequest request);
+    String deleteAdmin(LoginRequest loginRequest, String username);
+//    String deleteBlogger(LoginRequest loginRequest, String username);
+//    String deleteGuest(LoginRequest loginRequest, String username);
+    }

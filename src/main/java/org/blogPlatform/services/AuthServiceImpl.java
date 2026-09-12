@@ -27,6 +27,10 @@ public class AuthServiceImpl implements AuthService {
         if (!loggedAdmin.getPassword().equals(loginRequest.getPassword())) {
             throw new LoginException("invalid credentials");
         }
+
+        if (!loginRequest.getRole().equalsIgnoreCase("admin")) {
+            throw new LoginException("invalid credentials");
+        }
         loggedAdmin.setLoggedIn(true);
         adminService.saveAdmin(loggedAdmin);
         LoginResponse loginResponse = new LoginResponse();

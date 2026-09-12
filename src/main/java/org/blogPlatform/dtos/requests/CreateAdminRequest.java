@@ -7,6 +7,6 @@ public class CreateAdminRequest {
     public String registeredAdminUsername;
     public String registeredAdminEmail;
     public String registeredAdminPassword;
-    public Role registeredAdminRole;
+    public String registeredAdminRole;
 
 }
