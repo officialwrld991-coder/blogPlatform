@@ -5,16 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a7399c-ed12-425a-ae8c-8ac3be60e45b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blogPlatform/data/repositories/GuestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blogPlatform/services/GuestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/blogPlatform/services/GuestServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/controllers/GuestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blogPlatform/controllers/GuestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/controllers/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/controllers/GuestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/data/models/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/data/models/Blogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/data/models/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/data/models/Guest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/data/models/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/data/models/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/data/repositories/AdminRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/data/repositories/BloggerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/data/repositories/GuestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/dtos/requests/CreateAdminRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/dtos/requests/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/dtos/responses/CreateAdminResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/dtos/responses/LoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/exceptions/AdminException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/exceptions/LoginException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/exceptions/RegisterException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/services/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/services/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/services/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/services/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/services/GuestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/services/GuestServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blogPlatform/utils/Mapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/blogPlatform/data/repositories/AdminRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/blogPlatform/services/AdminServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/blogPlatform/services/AuthServiceImplTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +61,65 @@
   <component name="MavenRunner">
     <option name="jreName" value="26" />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.008343439530309" />
+      <entry key="MS500" value="1.8269677847307855" />
+      <entry key="S2" value="4.782747152986559" />
+      <entry key="S5" value="7.04338110862688" />
+      <entry key="S10" value="8.290349484841938" />
+      <entry key="S30" value="9.36519751147317" />
+      <entry key="S60" value="9.673419410277024" />
+      <entry key="M2" value="9.834324828358326" />
+      <entry key="M5" value="9.933145558417314" />
+      <entry key="M10" value="9.966474362874548" />
+      <entry key="M15" value="9.977627628585342" />
+      <entry key="M30" value="9.988802821795776" />
+      <entry key="H1" value="9.994398659173436" />
+      <entry key="H2" value="9.997198641204974" />
+      <entry key="H4" value="9.998599148450685" />
+      <entry key="D1" value="9.99976650082702" />
+      <entry key="W1" value="9.999966642389559" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="2.32714627851694E-20" />
+      <entry key="MS500" value="1.1840355350851251E-4" />
+      <entry key="S2" value="0.10431366014442618" />
+      <entry key="S5" value="0.40488946205653037" />
+      <entry key="S10" value="0.6363092503307883" />
+      <entry key="S30" value="0.860114123277027" />
+      <entry key="S60" value="0.9274233786556315" />
+      <entry key="M2" value="0.9630282335713899" />
+      <entry key="M5" value="0.9850439498135763" />
+      <entry key="M10" value="0.9924938034131883" />
+      <entry key="M15" value="0.9949895876332928" />
+      <entry key="M30" value="0.9974916479015213" />
+      <entry key="H1" value="0.9987450364840476" />
+      <entry key="H2" value="0.9993723212517182" />
+      <entry key="H4" value="0.9996861113628209" />
+      <entry key="D1" value="0.9999476783837352" />
+      <entry key="W1" value="0.9999925253157805" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.057746671775943975" />
+      <entry key="MS500" value="1.3533675872518156" />
+      <entry key="S2" value="4.671553563995093" />
+      <entry key="S5" value="7.270467598889179" />
+      <entry key="S10" value="8.798847236632243" />
+      <entry key="S30" value="10.16941909654285" />
+      <entry key="S60" value="10.570837341125424" />
+      <entry key="M2" value="10.781800491111943" />
+      <entry key="M5" value="10.911831782526852" />
+      <entry key="M10" value="10.95576611526833" />
+      <entry key="M15" value="10.970477332200844" />
+      <entry key="M30" value="10.985221928378184" />
+      <entry key="H1" value="10.992606773734082" />
+      <entry key="H2" value="10.996302338499179" />
+      <entry key="H4" value="10.998150907063293" />
+      <entry key="D1" value="10.999691781421111" />
+      <entry key="W1" value="10.999955967882356" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -44,34 +129,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/solomon-branch&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gamp/blogPlatform&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BlogPlatformApplication.executor": "Run",
+    "Spring Boot.Main.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/gamp/blogPlatform",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
-  <component name="RunManager" selected="Spring Boot.Main">
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.BlogPlatformApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.blogPlatform.Main" />
       <module name="blogPlatform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.blogPlatform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BlogPlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="blogPlatform" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.blogPlatform.BlogPlatformApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.blogPlatform.*" />
@@ -96,8 +230,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BlogPlatformApplication" />
         <item itemvalue="Spring Boot.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -106,8 +275,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
       </set>
     </attachedChunks>
   </component>
